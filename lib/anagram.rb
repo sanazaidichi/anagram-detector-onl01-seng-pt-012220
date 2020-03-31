@@ -9,7 +9,9 @@ def initialize(name)
 end 
 
 def match(array) 
-  array.keep_if { |string| binding.pry } 
+  array.keep_if do { |string| } 
+  name.split('').sort == string.split('').sort
+end
   
 end 
   
